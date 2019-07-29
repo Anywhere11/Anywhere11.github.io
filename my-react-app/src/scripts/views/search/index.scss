@@ -1,0 +1,51 @@
+.main-search{
+    .am-search{
+        margin-top: 1rem;
+    }
+    .search-list{
+
+        li{
+            display: flex;
+            font-size: 0.2rem;
+            line-height: 0.3rem;
+            margin: .1rem .1rem ;
+            background-color: rgba(110,110,110,.1);
+            display: flex;
+            align-items: center;
+            padding: 0.2rem;
+            line-height: 0.4rem;
+
+            h6{
+                width: 10%;
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+                
+            span{
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    border-radius: 50%;
+                    background-color: #eee;
+                    display: block;
+                    text-align: center;
+                    line-height: 0.5rem;
+                }
+
+
+            }
+
+            >div{
+                width: 70%;
+                padding-left: .4rem;
+
+            }
+
+            >p{
+                width: 20%;
+
+            }
+
+
+        }
+    }
+}

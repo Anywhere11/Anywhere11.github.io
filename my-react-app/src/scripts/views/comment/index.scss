@@ -1,0 +1,109 @@
+
+.comment-list{
+
+    background-color: #fff;
+    margin-top: 1.3rem;
+    display: flex;
+    padding:.3rem .5rem;
+    position: relative;
+
+    .comment-left{
+       padding-right: 0.5rem;
+       
+        
+        img{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+
+    .comment-right{
+        line-height: .5rem;
+        font-size: .2rem;
+        color:#333;
+        i{
+            padding-right: 0.1rem;
+        }
+    }
+}
+
+.comment-input{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+
+     
+    .iconfont{
+        position: absolute;
+        right: 0.9rem;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 0.5rem;
+        height: 0.5rem;
+
+        font-size: .5rem;
+
+      
+      
+
+    }
+}
+
+.comment-inputItem{
+
+   
+
+    .comment-inputList{
+
+        .comment-list-item{
+            margin-top: 0.2rem;
+            padding: .2rem;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+
+            h3{
+                display: flex;
+                font-size: 0.25rem;
+                padding-bottom: .4rem;
+                justify-content: space-around;
+                
+            }
+            h4{
+                background-color:rgba(110,110,110,.1);
+                font-size: .25rem;
+                color:#666;
+                padding: .2rem .2rem;
+                i{
+                    font-size: 0.4rem;
+                    float: right;
+                }
+    
+            }
+
+        }
+        
+
+    }
+}
+.mv-music{
+    margin-top: 1.3rem;
+    .mv-list-item{
+        margin: .5rem 0;
+        img{
+            width: 100%;
+        }
+        h4{
+            font-size: .3rem;
+            color: #333;
+        }
+       
+    }
+}
+
+
+
+

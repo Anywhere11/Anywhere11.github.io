@@ -1,0 +1,147 @@
+
+.mine-info{
+    height: 2rem;
+    margin-top: 0.9rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+    .mine-avatar{
+        width: 1.5rem;
+        height: 1.5rem;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 0.4rem;
+
+        img{
+            width: 1.5rem;
+            height: 1.5rem;
+            object-fit: cover;
+        }
+
+        span{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 1.5rem;
+            line-height: 0.6rem;
+            text-align: center;
+            font-size: 0.12rem;
+            background-color: rgba(110,110,110,.4);
+            color: #333,
+        }
+    }
+
+    .mine-name{
+        margin-left: 0.2rem;
+        font-size: 0.24rem;
+        color: #333;
+
+        p{
+            line-height: 0.5rem;
+            font-size: 0.34rem;
+        }
+
+        span{
+            line-height: 0.4rem;
+            font-size: 0.24rem;
+        }
+    }
+
+}
+
+.mine-null{
+    height: 2rem;
+    margin-top: 0.9rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+    h3{
+        width: 1.5rem;
+        height: 1.5rem;
+        overflow: hidden;
+        border-radius: 50%;
+
+        i{
+            padding-left: 0.4rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            font-size: 1rem;
+            text-align: center;
+            line-height: 1.5rem;
+            color: #666;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+}
+.mine-msg{
+    background-color: #fff;
+   
+    .mine-list-buy{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+
+
+
+        li{
+            display: flex;
+            flex-direction: column;
+            // width: 20%;
+            line-height: .6rem;
+            i{
+                color:rgba(110,110,110,.8);
+                font-size: .4rem;
+            }
+            span{
+                color:rgba(110,110,110,.9);
+                font-size: .3rem;
+
+            }
+
+        }
+
+    }
+
+}
+.mine-tab{
+    margin-top: 0.2rem;
+    li{
+        display: flex;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(110,110,110,.5);
+        line-height: .8rem;
+
+        &:nth-child(2n){
+            margin-bottom: .2rem;;
+            border-bottom: 0;
+        }
+
+        i{
+            width: 10%;
+            font-size: .35rem ;
+            text-align:center;   
+        }
+        span{
+            width: 80%;
+            color:rgba(110,110,110,1);
+        }
+    }
+}
+
+.mine-logout{
+    line-height: 1rem;
+    text-align: center;
+    color:red;
+    background-color: #fff;
+    margin-top: 0.1rem;
+}

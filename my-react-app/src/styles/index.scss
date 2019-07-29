@@ -1,0 +1,18 @@
+//引入字体图标库
+@import "./fonts/iconfont.css";
+
+//引入动画库
+@import"./animate.css";
+
+//引入公共样式
+@import"./common.scss";
+
+//引入第三方ANTD-MOBILE样式
+@import"./antd-mobile.css";
+
+//解决Ui库滑动警告
+* { touch-action: pan-y; } 
+
+.zoom-in{
+    animation: zoomIn 1.5s;
+}

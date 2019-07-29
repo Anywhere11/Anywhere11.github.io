@@ -1,0 +1,109 @@
+.singer-list {
+    position: relative;
+    width: 7.5rem;
+    height: 4rem;
+    margin-top: 0.9rem;
+ 
+    h3 {
+        width: 7.5rem;
+        height:4rem;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+       
+        overflow: hidden;
+        
+        img {
+        width: 7.5rem;
+        height: 4rem;
+        object-fit: cover;
+        opacity: .8;
+        
+
+        }
+    }
+    .singer-class {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 7.5rem;
+        height: 1.5rem;
+        background-color: rgba(110,110,110,.2);
+        border-radius: .8rem .8rem 0 0;
+        text-align: center;
+        line-height: 0.7rem;
+       
+        
+        
+        h5 {
+            color:white;
+            font-size: .4rem;
+           
+        }
+        span {
+            color:white;
+            font-size: .3rem;
+        }
+    }
+}
+
+.singer-hot{
+
+
+    .singer-list-demo{
+        .singer-guide{
+            display: flex;
+            margin-top: 0.1rem;
+            background-color: #fff;
+
+            h3{
+                width: 1.5rem;
+                height: 1.5rem;
+
+                img{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    object-fit: cover;
+                }
+            }
+
+            .singer-detail{
+                flex: 1;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 .2rem 0 .5rem;
+                align-items: center;
+
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    h4{
+                        font-size: 0.35rem;
+                        line-height: 0.6rem;
+                    }
+                    h5{
+                        font-size: 0.25rem;
+                        color: rgba(110,110,110,.6);
+                        line-height: 0.5rem;
+                    }
+                    }
+
+                }
+
+                i{
+                    font-size: .35rem;
+                    color: rgba(110,110,110,.5);
+                }
+            }
+
+
+
+        }
+    }
+
+    .singer-desc{
+        color: rgba(110,110,110,.5);
+        font-size: 0.35rem;
+    }
